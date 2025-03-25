@@ -162,3 +162,4 @@ app.delete("/products/:id", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+export default products;
